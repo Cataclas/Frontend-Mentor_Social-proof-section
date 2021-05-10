@@ -38,6 +38,10 @@ body {
     color: var(--Light-Grayish-Magenta);
 }
 
+.text-dark-grayish-magenta {
+    color: var(--Dark-Grayish-Magenta)
+}
+
 .bg-light-grayish-magenta {
     background: var(--Light-Grayish-Magenta);
 }
