@@ -92,7 +92,7 @@ main>div {
     color: var(--Soft-Pink);
 }
 
-@media (min-width: 576px) {
+@media (min-width: 375px) {
     body {
         background: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
         background-position: top left, bottom right;
