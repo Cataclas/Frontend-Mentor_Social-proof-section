@@ -1,0 +1,98 @@
+:root {
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+}
+
+* {
+    box-sizing: border-box;
+    /* border: 1px solid var(--Soft-Pink); */
+}
+
+html,
+body {
+    min-width: 100%;
+    min-height: 100%;
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    height: 100%;
+}
+
+body {
+    background: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+}
+
+.text-softpink {
+    color: var(--Soft-Pink);
+}
+
+.text-darkmagenta {
+    color: var(--Very-Dark-Magenta);
+}
+
+.text-light-grayish-magenta {
+    color: var(--Light-Grayish-Magenta);
+}
+
+.bg-light-grayish-magenta {
+    background: var(--Light-Grayish-Magenta);
+}
+
+.bg-dark-grayish-magenta {
+    background: var(--Dark-Grayish-Magenta)
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+h1 {
+    letter-spacing: -1.6px;
+}
+
+.ls-sm {
+    letter-spacing: -.4px;
+}
+
+main>div {
+    min-height: 50%;
+}
+
+.card {
+    background: var(--Very-Dark-Magenta);
+}
+
+.card img {
+    width: 40px;
+    height: 40px;
+}
+
+.cards>div:first-child {
+    transform: translateY(-1rem);
+}
+
+.cards>div:last-child {
+    transform: translateY(1rem);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--Soft-Pink);
+}
+
+@media (min-width: 576px) {
+    body {
+        background: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+        background-position: top left, bottom right;
+        background-repeat: no-repeat;
+        background-size: 40%, 80%;
+    }
+}
